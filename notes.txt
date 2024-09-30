@@ -1,0 +1,5 @@
+RAM $0000 - $07FF
+"zeropage" är snabbare ram minne men nbara mellan $0000 - $00FF
+I/O $2000 - $401F
+
+cartrige space
