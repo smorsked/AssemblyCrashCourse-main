@@ -1,6 +1,0 @@
-[book]
-authors = ["Smorsked"]
-language = "en"
-multilingual = false
-src = "src"
-title = "nesdev"

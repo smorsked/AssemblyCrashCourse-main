@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>nesdev</title>
-        <meta name="robots" content="noindex">
+        <title>Chapter 1</title>
 
 
         <!-- Custom HTML head -->
@@ -89,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html" class="active"><strong aria-hidden="true">1.</strong> Chapter 1</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -142,7 +141,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">nesdev</h1>
+                    <h1 class="menu-title"></h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -175,18 +174,8 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
-<div class="table-wrapper"><table><thead><tr><th>Bits</th><th>Description</th></tr></thead><tbody>
-<tr><td><tt> 0-4 and some more text <FONT COLOR="#FF0099">(M)</FONT></tt></td><td><p>Mode bits. These indicate the current processor mode:</p><p><code>10000</code> - User mode<br><code>10001</code> - FIQ mode<br><code>10010</code> - IRQ mode<br><code>10011</code> - Supervisor mode<br><code>10111</code> - Abort mode<br><code>11011</code> - Undefined mode<br><code>11111</code> - System mode<br></p></td></tr>
-<tr><td><tt>   5 <FONT COLOR="#9900CC">(T)</FONT></tt></td><td><a href="chapter_1.html#cpu-state">Thumb state</a> indicator. If set, the CPU is in Thumb state.  Otherwise it operates in normal ARM state. Software should never attempt to modify this bit itself.</td></tr>
-<tr><td><tt>   6 <FONT COLOR="#0099FF">(F)</FONT></tt></td><td>FIQ interrupt disable. Set this to disable FIQ interrupts.</td></tr>
-<tr><td><tt>   7 <FONT COLOR="#008800">(I)</FONT></tt></td><td><a href="interrupts.html">IRQ interrupt</a> disable. Set this to disable IRQ interrupts. On the GBA this is set by default whenever IRQ mode is entered. Why or how this is the case, I do not know.</td></tr>
-<tr><td><tt>8-27 <FONT COLOR="#FF3300">(R)</FONT></tt></td><td>Reserved</td></tr>
-<tr><td><tt>  28 <FONT COLOR="#FF0099">(V)</FONT></tt></td><td>Overflow condition code</td></tr>
-<tr><td><tt>  29 <FONT COLOR="#9900CC">(C)</FONT></tt></td><td>Carry/Borrow/Extend condition code</td></tr>
-<tr><td><tt>  30 <FONT COLOR="#0099FF">(Z)</FONT></tt></td><td>Zero/Equal condition code</td></tr>
-<tr><td><tt>  31 <FONT COLOR="#008800">(N)</FONT></tt></td><td>Negative/Less than condition code</td></tr>
-</tbody></table>
-</div>
+<p>some text</p>
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
@@ -222,11 +211,6 @@
 
         <!-- Custom JS scripts -->
 
-        <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
 
     </div>
     </body>
